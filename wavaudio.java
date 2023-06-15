@@ -1,5 +1,4 @@
 package com.ksvmediaplayer;
-
 public class wavaudio {
     static String name;
     public wavaudio() {}

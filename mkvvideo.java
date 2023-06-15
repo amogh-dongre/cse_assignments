@@ -1,9 +1,8 @@
 package com.ksvmediaplayer;
-
 public class mkvvideo implements Video, ConvertF2F, ConvertV2A {
     static String name;
-    public mkvvideo(String name) {
-        this.name = name;
+   public mkvvideo(String name) {
+       this.name = name;
     }
     public void play() {
         System.out.println(name+"(.mkv video) now playing.");
